@@ -1,5 +1,9 @@
 __all__ = [
-    "parse"
+    "errors",
+    "parse",
+    "parse_static",
+    "load_template",
 ]
 
-from .jsonplate import parse
+from . import errors
+from .jsonplate import parse, parse_static, load_template
