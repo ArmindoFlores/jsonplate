@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jsonplate"
+version = "0.0.1"
+description = "A Python package to parse JSON and JSON templates"
+authors = [
+    { name = "Francisco Rodrigues", email = "francisco.rodrigues0908@gmail.com" }
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+dependencies = [
+]
